@@ -1,0 +1,88 @@
+/* Write your CSS here */
+
+* {
+  font-family: 'Roboto';
+}
+.bg {
+  padding: 50px;
+}
+
+.row-container {
+  display: flex;
+  width: 100%;
+}
+
+.row-1 {
+  flex-basis: 65%;
+  justify-content: center;
+  flex-direction: column;
+}
+.row-2 {
+  flex-basis: 50%;
+}
+.heading {
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Roboto';
+}
+/* .img {
+  height: 350px;
+  width: 400px;
+} */
+.para {
+  font-size: 15px;
+  color: #475569;
+  margin-top: 50px;
+}
+.input {
+  width: 70%;
+  padding: 10px;
+  margin-top: 10px;
+  border-radius: 2px;
+  outline: none;
+  border-width: 1px;
+  border-style: solid;
+}
+.btn {
+  width: 120px;
+  height: 35px;
+  padding: 5px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  border-width: 0px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+.new {
+  display: flex;
+  flex-direction: column;
+}
+.line {
+  border: 1px solid #dee0e3;
+  width: 100%;
+  margin-top: 16px;
+}
+.span {
+  background-color: #0b69ff;
+  padding: 5px;
+  width: 30px;
+  color: #ffffff;
+  height: 6px;
+  border-radius: 2px;
+  margin-right: 10px;
+}
+.ul {
+  list-style-type: none;
+  padding-left: 0px;
+}
+.initial-container {
+  border-radius: 50px;
+  margin-right: 10px;
+  padding: 5px;
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+}
